@@ -1,0 +1,58 @@
+package List_Exercises;
+
+import java.util.Scanner;
+
+public class Exercise002CalculadoraSwitch {
+	
+	public static void main (String [] args) {
+	
+	//Construa a calculadora usando switch case.
+	
+	double res;
+	
+	System.out.println("Digite a operação desejada: "
+			+ "\n 1 para adição \n 2 para subtração \n 3 para divisão "
+			+ "\n 4 para multiplicação\n");
+	
+    Scanner operaçao = new Scanner(System.in);
+    int oper = operaçao.nextInt();
+	
+    System.out.println("Digite o 1º valor.");
+    Scanner val1 = new Scanner(System.in);
+	int num = val1.nextInt();
+	
+	System.out.println("Digite o 2º valor.");
+	Scanner val2= new Scanner(System.in);
+	int num1 = val2.nextInt();
+	
+	switch (oper) {
+	
+	case 1 : res = num + num1;
+			 System.out.println(res);
+	
+			 break;
+			 
+			 
+	case 2 : res = num - num1;
+			 System.out.println(res);
+			 
+			 break;
+			 
+	case 3 : res = num / num1;
+			 System.out.println(res);
+			 
+			 break;
+			 
+	case 4 : res = num * num1;
+			 System.out.println(res);
+			 
+			 break;
+			 
+	default :
+		System.out.println("Informe um valor válido!");
+		
+	
+	}	
+
+}
+}

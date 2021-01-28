@@ -1,0 +1,55 @@
+package List_Exercises;
+
+import java.util.Scanner;
+
+/*	Enunciado: Desenvolva uma calculadora em Java usando IF para tomada de decisão
+ * 
+ **/
+
+public class Exercise001CalculadoraIf {
+
+	public static void main(String[] args)
+	{
+		Scanner scan = new Scanner(System.in);
+		
+		int valor01 = 0, valor02 = 0, resultado; //variaveis para uso da calculadora
+		
+		int opcao; //Variavel para controle
+		
+		System.out.println("Informe Uma Opção Lucas");
+		System.out.println("1. Soma\n2. Subtracao\n3. Multiplicacao\n4. Divisao");
+		opcao = scan.nextInt();
+		
+		System.out.println("Informe Valor 01");
+		valor01 = scan.nextInt();
+		System.out.println("Informe Valor 02");
+		valor02 = scan.nextInt();
+		
+		if(opcao == 1)
+		{
+			resultado = (valor01 + valor02);
+			System.out.printf("Soma dos valores: " + resultado);
+		}
+		
+		else if (opcao == 2) {
+			resultado = (valor01 - valor02);
+			System.out.println("Subtração dos valores: " + resultado);
+		
+		}
+		else if(opcao == 3) {
+				resultado = (valor01 * valor02);
+				System.out.println("Multiplicação dos valores" + resultado);
+				
+			}
+		
+		else if (opcao == 4) {
+			resultado = (valor01 / valor02);
+			System.out.println("Divisão dos valores: \n" + resultado);
+			
+		} else {
+			System.out.println("Opção informada inválida!");
+		}
+		
+		
+	}
+	}

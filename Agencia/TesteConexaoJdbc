@@ -1,0 +1,18 @@
+package agencia;
+
+import java.sql.Connection;
+import java.sql.SQLException;
+
+public class TestarConexao {
+	
+	public static void main (String [] args)throws 
+		
+		SQLException {
+			
+		Connection conexao = new TesteConexaoJdbc().getConexao();
+		System.out.println("conexão aberta!");
+		conexao.close();
+			
+		}//
+	}
+
