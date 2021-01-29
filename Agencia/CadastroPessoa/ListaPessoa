@@ -1,0 +1,9 @@
+package CadastroPessoa;
+
+public class ArrayPessoa {
+
+	private Pessoa array[]; //Cria uma referencia de um array para a classe pessoa,
+	//private Pessoa array[]; Cria a referencia para criacao de um array de objetos
+	//ou seja, cria um array para persistencia dos dados em cada celula de memoria do array da classe pessoa
+	private int contador; //Esse cara é para contar a quantidade de objetos que temos armazenados na memoria
+	
