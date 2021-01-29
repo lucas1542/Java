@@ -13,5 +13,13 @@ public class ArrayPessoa {
 	{
 		array = new Pessoa[quant];	//Alocação estatica de memoria para a classe Pessoa
 		contador = 0;				//Incializa o contador
-	}
+    }
+    //coloca a classe dentro do array
+	public void inserir(String nome, int idade, String CPF, String Endereco, String telefone)
+	{
+		array[contador] = new Pessoa(nome, idade, CPF, Endereco, telefone);
+		contador++; //esse cara incrementa pulando para a proxima posicao do array
+	}//Esse procedimento faz a inserção dos atributos da classe dentro de cada regiao de memoria
+	//do array EX: [Pessoa01][Pessoa02] com seus atributos em cada posicao e isso vai incrementando
 	
+}
