@@ -1,0 +1,37 @@
+package manipulandodatas;
+
+import java.util.Date;
+
+public class ComparacaoDatas {
+
+	  public static void main(String[] args) {
+
+	        Date dataNoPassado = new Date(1513124807691L);
+	        //Tue Dec 12 22:26:47 BRST 2017
+
+	        Date dataNoFuturo = new Date(1613124807691L);
+	        //Fri Feb 12 08:13:27 BRST 2021
+	        
+
+	        /** Comparando se a dataNoPassado é posterior a dataNoFuturo 
+	         *  A data Tue Dec 12 22:26:47 BRST 2017 é posterior ou seja é
+	         *  mais recente que a  //Fri Feb 12 08:13:27 BRST 2021
+	         *  no caso não então retorna false
+	         * */
+	        boolean isAfter = dataNoPassado.after(dataNoFuturo);
+
+	        System.out.println(isAfter);
+	        //false
+
+	        /** Comparando se a dataNoPassado é anterior a dataNoFuturo
+	         *  A data //Tue Dec 12 22:26:47 BRST 2017 é anterior ou seja
+	         *  é mais antiga que //Fri Feb 12 08:13:27 BRST 2021 que estamos 
+	         *  fazendo a comparação? sim então retorna true
+	         *  */
+	        
+	        boolean isBefore = dataNoPassado.before(dataNoFuturo);
+
+	        System.out.println(isBefore);
+	        //true
+
+	    }
