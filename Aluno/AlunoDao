@@ -1,0 +1,34 @@
+package aluno;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.util.ArrayList;
+import java.util.List;
+
+public class AlunoDAO {
+	// Realizamos esse método list vai me trazer todos os alunos no meu banco de dados
+	// consulta
+	public List<Aluno> list(){
+	
+	// Sabemos que esse meu método vai nos retorna alunos.	
+	// Então a gente cria uma lista de alunos	
+	List<Aluno> alunos = new ArrayList<>();
+	
+	// Pegamos a nossa classe que esta realizando a conexão
+	// E o método que esta realizando a conexão	
+	try(Connection conn = ConexaoBancoDados.getConexao()){
+	
+	// criar uma consulta SQL.
+	PreparedStatement ps =	conn.prepareStatement('SELECT * FROM aluno');
+	ResultSet p = ps.executeQuery();
+	
+	
+	}catch (Exception e) {
+		
+	}
+	return alunos;
+
+
+	}
+	
+}
