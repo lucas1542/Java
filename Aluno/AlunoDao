@@ -2,11 +2,13 @@ package aluno;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.List;
 
 public class AlunoDAO {
-	// Realizamos esse método list vai me trazer todos os alunos no meu banco de dados
+	// Realizamos esse método list vai me trazer todos os 
+	//alunos no meu banco de dados
 	// consulta
 	public List<Aluno> list(){
 	
@@ -19,9 +21,20 @@ public class AlunoDAO {
 	try(Connection conn = ConexaoBancoDados.getConexao()){
 	
 	// criar uma consulta SQL.
-	PreparedStatement ps =	conn.prepareStatement('SELECT * FROM aluno');
+	PreparedStatement ps =	conn.prepareStatement("SELECT * FROM aluno");
 	ResultSet p = ps.executeQuery();
+	// percorre a nossa tabela enquanto tiver proximo ele retorno true
+	// jogamos no while para percorrer todo a nossa tabela
+	//  ele passa o curso e retorna um booleano true se chegar 
+	//no fim ele retorna falso
+	// mas como são varios registro colocamos while para percorrer toda nossa tabela
+	while(p.next());{
+	// enquanto tiver registro a gente vai adiconando na nossa lista alunos
+	// temos que pegar valor a valor	
+		Aluno aluno = new Aluno (p.getString("nome"), p.getString("cpf"), p.getString("endereço"));
+	}
 	
+		
 	
 	}catch (Exception e) {
 		
