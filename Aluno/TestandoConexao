@@ -1,0 +1,18 @@
+package aluno;
+
+import java.sql.Connection;
+import java.sql.SQLException;
+
+public class TestandoConexao {
+	
+	public static void main (String[] args) throws SQLException{
+		
+		Connection conexao = new ConexaoBancoDados().getConexao();
+		System.out.println("Conectado com sucesso!");
+		conexao.close();
+		
+	}
+	
+	
+
+}
