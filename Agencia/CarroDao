@@ -5,7 +5,7 @@ public class Carro {
 	private int idCarro;
 	private String modelo;
 	private String ano;
-
+    private String placa;
 	public Carro() {
 
 	}
