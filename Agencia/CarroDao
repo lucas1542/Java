@@ -1,0 +1,25 @@
+package agencia;
+
+public class Carro {
+
+	private int idCarro;
+	private String modelo;
+	private String ano;
+
+	public Carro() {
+
+	}
+
+	public int getCarro() {
+		return this.idCarro;
+	}
+
+	public String getModelo() {
+		return this.modelo;
+	}
+
+	public String getString() {
+
+		return this.ano;
+	}
+}
