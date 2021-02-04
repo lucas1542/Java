@@ -23,5 +23,7 @@ public class Carro {
 		return this.ano;
 	}
 
-    public void setIdCarro
+    public void setIdCarro(int carro) {
+		this.idCarro = carro;
+	}
 }
