@@ -32,4 +32,7 @@ public class Carro {
     public void setAno (String ano){
 	this.ano = ano;
 	}
-    public void setPlaca (String placa)
+    public void setPlaca (String placa){
+    this.placa = placa;
+	}
+}
