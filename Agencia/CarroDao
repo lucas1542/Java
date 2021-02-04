@@ -29,5 +29,6 @@ public class Carro {
     public void setModelo(String mod){
 		this.modelo = mod;
 	}
-    public void setAno (String ano)
-}
+    public void setAno (String ano){
+	this.ano = ano;
+	}
