@@ -26,4 +26,5 @@ public class Carro {
     public void setIdCarro(int carro) {
 		this.idCarro = carro;
 	}
+    public void setModelo(String mod)
 }
