@@ -4,3 +4,5 @@ import java.util.Date;
 
 public class CurrentTimeMills {
 public static void main(String[] args) {
+
+    Long currentTimeMillis = System.currentTimeMillis();
