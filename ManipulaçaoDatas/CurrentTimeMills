@@ -11,3 +11,8 @@ public static void main(String[] args) {
         // 1563127311564
 
  Date novaData = new Date(currentTimeMillis);
+  System.out.println(novaData);
+        // Sun Jul 14 15:01:51 BRT 2019
+
+}
+}
