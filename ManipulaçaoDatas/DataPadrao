@@ -2,3 +2,7 @@ package manipulandodatas;
 import java.util.Date;
 
 public class DataPadrao {
+    	/**
+	 * Exemplo de utilização do construtor padrão da classe Date
+	 */
+     
