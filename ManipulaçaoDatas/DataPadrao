@@ -1,4 +1,4 @@
 package manipulandodatas;
-
-
 import java.util.Date;
+
+public class DataPadrao {
