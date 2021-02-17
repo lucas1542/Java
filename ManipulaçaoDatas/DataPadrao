@@ -6,3 +6,4 @@ public class DataPadrao {
 	 * Exemplo de utilização do construtor padrão da classe Date
 	 */
        public static void main(String[] args) {
+             Date novaData = new Date();
