@@ -1,3 +1,6 @@
 package manipulandodatas;
 
-import java.util.Date;
+import java.util.Date;  
+
+public class EqualsComparaTo {
+	public static void main(String[] args) {
