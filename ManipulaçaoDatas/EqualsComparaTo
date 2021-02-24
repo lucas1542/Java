@@ -9,3 +9,6 @@ public class EqualsComparaTo {
         Date dataNoFuturo = new Date(1613124807691L); //Fri Feb 12 08:13:27 BRST 2021
         
         Date mesmaDataNoFuturo = new Date(1613124807691L); //Fri Feb 12 08:13:27 BRST 2021
+        
+        /** Comparando se as datas são iguais */
+        boolean isEquals = dataNoFuturo.equals(mesmaDataNoFuturo);
