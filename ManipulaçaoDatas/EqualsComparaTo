@@ -21,3 +21,6 @@ public class EqualsComparaTo {
         int compareCase2 = dataNoFuturo.compareTo(dataNoPassado); //futuro -> passado
 
         int compareCase3 = dataNoFuturo.compareTo(mesmaDataNoFuturo); //datas equivalentes
+
+         System.out.println(compareCase1); // -1 estamos abaixo do zero seguindo a linha temporal
+        // a data está anterior a data que e esta sendo comparado
