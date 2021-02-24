@@ -24,3 +24,6 @@ public class EqualsComparaTo {
 
          System.out.println(compareCase1); // -1 estamos abaixo do zero seguindo a linha temporal
         // a data está anterior a data que e esta sendo comparado
+
+           System.out.println(compareCase2); // 1 estamos acima do zero seguindo a linha temporal
+        // a data está posterior a data que esta sendo comparada 
