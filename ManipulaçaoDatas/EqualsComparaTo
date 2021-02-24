@@ -17,3 +17,5 @@ public class EqualsComparaTo {
  
         /** Comparando uma data com a outra */
         int compareCase1 = dataNoPassado.compareTo(dataNoFuturo); //passado -> futuro
+        
+        int compareCase2 = dataNoFuturo.compareTo(dataNoPassado); //futuro -> passado
