@@ -19,3 +19,5 @@ public class EqualsComparaTo {
         int compareCase1 = dataNoPassado.compareTo(dataNoFuturo); //passado -> futuro
         
         int compareCase2 = dataNoFuturo.compareTo(dataNoPassado); //futuro -> passado
+
+        int compareCase3 = dataNoFuturo.compareTo(mesmaDataNoFuturo); //datas equivalentes
