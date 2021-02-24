@@ -14,3 +14,6 @@ public class EqualsComparaTo {
         boolean isEquals = dataNoFuturo.equals(mesmaDataNoFuturo);
 
         System.out.println(isEquals); //true
+ 
+ /** Comparando uma data com a outra */
+        int compareCase1 = dataNoPassado.compareTo(dataNoFuturo); //passado -> futuro
