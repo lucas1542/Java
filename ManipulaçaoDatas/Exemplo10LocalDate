@@ -1,3 +1,5 @@
 package manipulandodatas;
 
 import java.time.LocalDate;
+
+public class Exemplo10LocalDate {
