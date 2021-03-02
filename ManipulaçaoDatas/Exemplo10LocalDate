@@ -13,3 +13,7 @@ public class Exemplo10LocalDate {
 
            System.out.println(hoje);
 	        
+	    }
+
+}
+
