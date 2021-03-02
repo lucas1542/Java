@@ -7,5 +7,6 @@ public class Exemplo10LocalDate {
     /**
 	 * Exemplo de como utilizar LocalDate
 	 */	
-     
+
 	  public static void main(String[] args) {
+           LocalDate hoje = LocalDate.now();
