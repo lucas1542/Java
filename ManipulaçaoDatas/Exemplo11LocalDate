@@ -1,3 +1,8 @@
 package manipulandodatas;
 
 import java.time.LocalDate;
+
+/**
+	 * Exemplo de como manipular LocalDate
+	 */
+	
