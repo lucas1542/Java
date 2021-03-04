@@ -6,3 +6,9 @@ import java.time.LocalDate;
 	 * Exemplo de como manipular LocalDate
 	 */
 	
+
+ public static void main(String[] args) {
+      
+      LocalDate hoje = LocalDate.now();
+
+      LocalDate ontem = hoje.minusDays(1);
