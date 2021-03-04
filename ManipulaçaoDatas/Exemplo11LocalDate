@@ -12,3 +12,6 @@ import java.time.LocalDate;
       LocalDate hoje = LocalDate.now();
 
       LocalDate ontem = hoje.minusDays(1);
+
+       System.out.println(hoje);
+	        // 2019-07-14
