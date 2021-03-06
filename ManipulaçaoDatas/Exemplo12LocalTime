@@ -8,3 +8,5 @@ public class Exemplo12LocalTime {
 /**
  * Exemplo de como utilizar LocalTime
  */
+
+ public static void main(String[] args) {
