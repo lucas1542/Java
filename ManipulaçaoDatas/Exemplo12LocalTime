@@ -3,3 +3,8 @@ package manipulandodatas;
 import java.time.LocalTime;
 
 public class Exemplo12LocalTime {
+
+    
+/**
+ * Exemplo de como utilizar LocalTime
+ */
