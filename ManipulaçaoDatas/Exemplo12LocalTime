@@ -10,3 +10,5 @@ public class Exemplo12LocalTime {
  */
 
  public static void main(String[] args) {
+
+ LocalTime agora = LocalTime.now();
