@@ -10,3 +10,5 @@ public class FunçoesMatematicas {
 
         a = Math.sqrt(x);
 		b = Math.sqrt(y);
+        c = Math.sqrt(100);
+		System.out.println("A raíz quadrada de " + x + " é:" + a);
