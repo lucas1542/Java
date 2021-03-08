@@ -25,3 +25,9 @@ public class FunçoesMatematicas {
 		a = Math.abs(x);
         System.out.println("O absoluto é: " + a);
 		a = Math.abs(z);
+        System.out.println("O absoluto é: " + a);
+		
+	}
+	
+
+}
