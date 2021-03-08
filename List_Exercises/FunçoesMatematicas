@@ -1,3 +1,7 @@
 package List_Exercises;
 
-public static void main (String[] args) {
+public class FunçoesMatematicas {
+    
+    public static void main (String[] args) {
+        double x = 10;
+		double y = 25;
