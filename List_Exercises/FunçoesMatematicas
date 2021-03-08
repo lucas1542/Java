@@ -17,3 +17,6 @@ public class FunçoesMatematicas {
 
         a = Math.pow(x, y);
 		System.out.println("A potencia dos valores é: " + a);
+        b = Math.pow(y, 2);
+		System.out.println("A potencia dos valores é: " + b);
+		c = Math.pow(5.0, 10);
