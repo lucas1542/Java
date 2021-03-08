@@ -20,3 +20,6 @@ public class FunçoesMatematicas {
         b = Math.pow(y, 2);
 		System.out.println("A potencia dos valores é: " + b);
 		c = Math.pow(5.0, 10);
+
+        // absoluto tirar o valor negativo caso ele exista
+		a = Math.abs(x);
