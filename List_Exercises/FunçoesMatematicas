@@ -7,3 +7,6 @@ public class FunçoesMatematicas {
 		double y = 25;
         double z = -4;
 		double a, b, c;
+
+        a = Math.sqrt(x);
+		b = Math.sqrt(y);
