@@ -5,3 +5,5 @@ public class FunçoesMatematicas {
     public static void main (String[] args) {
         double x = 10;
 		double y = 25;
+        double z = -4;
+		double a, b, c;
