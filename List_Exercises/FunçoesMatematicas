@@ -23,3 +23,5 @@ public class FunçoesMatematicas {
 
         // absoluto tirar o valor negativo caso ele exista
 		a = Math.abs(x);
+        System.out.println("O absoluto é: " + a);
+		a = Math.abs(z);
