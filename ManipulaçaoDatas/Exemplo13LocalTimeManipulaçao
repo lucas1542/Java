@@ -9,3 +9,5 @@ public class Exemplo13LocalTimeManipulacao {
 	 */
 
  public static void main(String[] args) {
+
+ LocalTime agora = LocalTime.now();
