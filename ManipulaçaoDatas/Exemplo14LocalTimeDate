@@ -12,3 +12,5 @@ public class Exemplo14LocalTimeDate {
       public static void main(String[] args) {
         
         LocalDateTime agora = LocalDateTime.now();
+
+System.out.println(agora);
