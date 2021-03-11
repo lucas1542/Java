@@ -10,3 +10,4 @@ public class FormatacaoCalendar {
       public static void main(String[] args) {
            
            Calendar agora = Calendar.getInstance();
+            System.out.printf("%tc\n", agora);
