@@ -17,3 +17,6 @@ public class FormatacaoCalendar {
              System.out.printf("%tr\n", agora);
              System.out.printf("%tT\n", agora);
              System.out.printf("%tT\n", agora);
+             
+	    }
+}
