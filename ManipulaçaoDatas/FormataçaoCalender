@@ -8,3 +8,5 @@ public class FormatacaoCalendar {
 	 */
 
       public static void main(String[] args) {
+           
+           Calendar agora = Calendar.getInstance();
