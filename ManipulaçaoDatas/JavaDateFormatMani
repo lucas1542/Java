@@ -9,3 +9,4 @@ public class JavaDateFormatMani {
       Date agora = new Date(); 
 
         String dateToStr = DateFormat.getInstance().format(agora);
+         System.out.println(dateToStr);
