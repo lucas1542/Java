@@ -2,4 +2,8 @@ package manipulandodatas;
 
 import java.text.DateFormat;
 
-    public class JavaDateFormatMani {
+public class JavaDateFormatMani {
+  
+   public static void main(String[] args) {
+
+       
