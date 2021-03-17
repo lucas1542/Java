@@ -6,4 +6,4 @@ public class JavaDateFormatMani {
   
    public static void main(String[] args) {
 
-       
+      Date agora = new Date(); 
