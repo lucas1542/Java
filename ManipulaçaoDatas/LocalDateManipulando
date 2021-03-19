@@ -11,3 +11,6 @@ public class LocalDateManipulando {
         LocalDate hoje = LocalDate.now();
 
         System.out.println(hoje);
+
+        }
+}
