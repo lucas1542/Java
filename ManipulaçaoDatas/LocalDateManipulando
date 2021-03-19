@@ -11,7 +11,7 @@ public class LocalDateManipulando {
       public static void main(String[] args) {
         LocalDate hoje = LocalDate.now();
 
-        System.out.println(hoje);
+        System.out.print(hoje);
 
         }
 }
