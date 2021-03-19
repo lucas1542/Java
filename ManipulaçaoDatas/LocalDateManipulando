@@ -8,4 +8,6 @@ public class LocalDateManipulando {
 	 */
 
       public static void main(String[] args) {
-            LocalDate hoje = LocalDate.now();
+        LocalDate hoje = LocalDate.now();
+
+        System.out.println(hoje);
