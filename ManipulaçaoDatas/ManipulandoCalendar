@@ -7,3 +7,5 @@ public class ManipulandoCalendar {
     public static void main(String[] args) {
 
          Calendar agora = Calendar.getInstance();
+
+         System.out.println("A data corrente é : " + agora.getTime());
