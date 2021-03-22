@@ -9,3 +9,6 @@ public class ManipulandoCalendar {
          Calendar agora = Calendar.getInstance();
 
          System.out.println("A data corrente é : " + agora.getTime());
+
+          agora.add(Calendar.DATE, -15);
+          System.out.println("15 dias atrás: " + agora.getTime());
