@@ -6,3 +6,5 @@ public class SimpleDateFormatManipulando {
     /**
 	 * Exemplo de formatação de data com SimpleDateFormat
 	 */
+
+       public static void main(String[] args) {
