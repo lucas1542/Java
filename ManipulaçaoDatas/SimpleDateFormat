@@ -14,3 +14,7 @@ public class SimpleDateFormatManipulando {
 
     String dataFormatada = formatter.format(agora);
  System.out.println(dataFormatada);
+ 
+	    }
+
+}
