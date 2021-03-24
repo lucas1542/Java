@@ -3,3 +3,6 @@ package manipulandodatas;
 import java.text.SimpleDateFormat;
 
 public class SimpleDateFormatManipulando {
+    /**
+	 * Exemplo de formatação de data com SimpleDateFormat
+	 */
