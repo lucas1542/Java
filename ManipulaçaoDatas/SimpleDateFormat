@@ -8,3 +8,5 @@ public class SimpleDateFormatManipulando {
 	 */
 
        public static void main(String[] args) {
+              Date agora = new Date();
+              
